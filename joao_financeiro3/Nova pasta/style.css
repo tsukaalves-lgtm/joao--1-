@@ -1,0 +1,65 @@
+body {
+
+    /* Padding: Margem interna de toda TAG HTML. */
+    /* Border: Separa as margens Padding e Margin. */
+    /* Margin: Margem externa de toda TAG HTML. */
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Tahoma;
+    background-color: #262626;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+ background-color: #2c001c;
+color: #ffffff;
+margin: 100px 0px;
+padding: 32px;
+display: flex;
+flex-direction: column;
+border-radius: 4px;
+box-shadow: 2px 2px 6px #000000;
+}
+
+/*Formatação agrupada! */ 
+header,footer{
+    color: #ffffff;
+}
+
+footer{
+ text-align: center;
+padding: 20px 0px;
+font-size: 12px;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+.form-camp {
+height: 30px;
+outline: none;
+border: none;
+border-radius: 4px;
+margin-bottom: 26px;
+}
+
+•btn-acessar {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #1220e4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-acessar:hover{
+    background-color: #134700;
+}
